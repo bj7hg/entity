@@ -1,0 +1,9 @@
+review.edit:
+  route_name: entity.rgb.edit
+  base_route: entity.rgb.canonical
+  title: Edit a review
+
+review.delete:
+  route_name: entity.rgb.delete_form
+  base_route: entity.rgb.canonical
+  title: Delete a review

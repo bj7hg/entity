@@ -1,0 +1,83 @@
+body .page-title {
+  text-align: center;
+}
+body .rgb-form {
+  margin: 0 auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .rgb-form .form-wrapper {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .rgb-form .form-wrapper label {
+  margin: 0 auto;
+}
+body .rgb-form .form-wrapper .description {
+  text-align: center;
+}
+body .rgb-form .form-wrapper .js-form-required {
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 16px;
+}
+body .review {
+  display: flex;
+  justify-content: space-between;
+  max-width: 900px;
+  width: 100%;
+  margin: 30px 0;
+  border: 1px #000 solid;
+  padding: 20px;
+}
+body .review .first {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+  justify-content: center;
+}
+body .review .first .name {
+  font-weight: bold;
+}
+body .review .first .avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 7px;
+}
+body .review .second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+body .review .second .text {
+  text-align: center;
+}
+body .review .second .image {
+  margin-top: 20px;
+}
+body .review .second .image img {
+  max-height: 200px;
+  height: 100%;
+  width: auto;
+}
+body .review .third {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+  justify-content: center;
+}
+body .review .third .email {
+  margin-bottom: 10px;
+}
+body .review .third .phone {
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=style.css.map */

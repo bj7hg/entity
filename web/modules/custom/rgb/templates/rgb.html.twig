@@ -1,0 +1,21 @@
+{{ attach_library('rgb/rgb.reviews') }}
+<div class="review">
+  <div class="first">
+    <div class="avatar">{{content.avatar}}</div>
+    <div class="name">{{ content.name }}</div>
+    <div class="date">{{content.date}}</div>
+  </div>
+  <div class="second">
+    <div class="text">{{content.review}}</div>
+    {% if content.image is not null %}
+    <div class="image">{{ content.image }}</div>
+    {% endif %}
+  </div>
+  <div class="third">
+    <div class="email">{{ content.email }}</div>
+    <div class="phone">{{ content.phone }}</div>
+    {% if user.hasPermission('administer nodes') %}
+    <div class="button">{{ button }}</div>
+    {% endif %}
+  </div>
+</div>

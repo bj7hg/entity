@@ -1,0 +1,23 @@
+rgb:
+  path: '/rgb'
+  defaults:
+    _controller: '\Drupal\rgb\Controller\EntityController::build'
+    _title: 'Reviews'
+  requirements:
+    _permission: 'access content'
+
+entity.rgb.delete_form:
+  path: '/rgb/{rgb}/delete'
+  defaults:
+    _entity_form: 'rgb.delete'
+    _title: 'Delete review'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.rgb.edit:
+  path: '/rgb/{rgb}/edit'
+  defaults:
+    _entity_form: 'rgb.default'
+    _title: 'Edit review'
+  requirements:
+    _permission: 'administer site configuration'
